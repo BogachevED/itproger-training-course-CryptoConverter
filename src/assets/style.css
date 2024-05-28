@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@1,130,100..900&family=Anta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@1,119.1,200&family=Anta&family=Barlow+Condensed&display=swap");
+
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(135deg,rgba(131, 58, 180, 1) 0%,rgba(253, 29, 29, 1) 50%,rgba(252, 176, 69, 1) 100%);
+  min-height: 100vh;
+}
+
+main {
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-variation-settings: "wdth" 130;
+  text-align: center;
+  font-size: 1.6em;
+  color: whitesmoke;
+}
+
+header {
+  font-family: "Anta", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-variation-settings: "wdth" 130;
+  text-align: center;
+  margin-top: 75px;
+  font-size: 1.6em;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+input {
+  border-radius: 3px;
+  border: 0;
+  font-size: 0.6em;
+  width: 420px;
+  padding: 10px 15px;
+  background: #fafafa;
+  color: #363636;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  width: 180px;
+  padding: 0.1%;
+  border-radius: 5px;
+  border: 2px solid rgb(131, 58, 180);
+}
+
+li {
+  display: block;
+  background: rgba(0, 0, 0, 0.144);
+  color: #ffffff;
+  padding: 20px 0;
+  margin-top: 1%;
+  border-radius: 5px;
+}
+
+li:hover, li.active {
+  background: rgba(255, 153, 0, 0.144);
+  cursor: pointer;
+}
+
+button {
+  position: relative;
+  padding: 15px 20px;
+  margin-top: 1%;
+  color: #fafafa;
+  cursor: pointer;
+  background: rgba(131, 58, 180, 1);
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.144);
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.7em;
+  transition: transform 500ms ease;
+}
+
+button:hover {
+  background: rgba(252, 176, 69, 1);
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.144);
+  transform: scale(1.1) translateY(-5px);
+}
+
+button.fav-button {
+  margin-left: 20px;
+}
+
+.favsPars{
+  text-align: center;
+  width: 100%;
+  min-height: 60px;
+  transition: all 500ms ease;
+}
+
+.favsPars:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+span{
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 0.7%;
+  padding-right: 0.7%;
+  background: rgba(0, 0, 0, 0.144);
+  color: #ffffff;
+}
