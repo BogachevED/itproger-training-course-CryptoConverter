@@ -1,6 +1,6 @@
-# classeproject
+# crypto-converter
 
-This template should help get you started developing with Vue 3 in Vite.
+The application performs conversion from one crypto currency to another. Made using Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -9,6 +9,10 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Interaction with the application
+
+The application required internet connection for correct work.
 
 ## Project Setup
 
